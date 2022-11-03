@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing:  border-box;
+
+}
+
+:root{
+  --success-color: #2691d9;
+  --error-color:#e74c3c;
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(120deg, #3ca7ee, #9b40bf );
+  overflow: hidden;
+  font-family: 'Poppins';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.constainer{
+  width:400px;
+  
+  border:none;
+  border-radius: 10px;
+  background: #9e9e9e;
+  padding:40px;
+  box-shadow: -5px 5px 5px #AAA
+}
+
+.constainer h1 {
+  text-align: center;
+}
+
+.form-control{
+  width: 100%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.form-control input{
+  background-color: rgb(141, 189, 221, 0.3);
+  border-radius: 3px;
+  width:100%;
+  height: 40px;
+  font-size:16px;
+  border:none;
+  outline: none;
+  border-bottom: 2px solid#adadad;
+  padding-left: 10px;
+}
+.form-control span{
+  border-bottom: 3px solid var(--success-color);
+  position: absolute;
+  left:0;
+  top:38px;
+  width:0%;
+  transition: 0.3s;
+}
+
+.form-control input:focus ~ span{
+  width:100%
+}
+
+.form-control small{
+  /* color: var(--error-color); */
+  font-weight: bold;
+}
+
+
+.btn-submit{
+  width:100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none ;
+  outline:none;
+  background: var(--success-color);
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  margin:25px 0;
+  cursor:pointer;
+  transition: 0.3s;
+
+}
+.btn-submit:hover{
+  background: #08609a ;
+}
+.sigin-link{
+  text-align: center;
+}
+.sigin-link span{
+  color:var(--success-color);
+  cursor:pointer;
+}
+  
+.sigin-link span:hover{
+  text-decoration: underline;
+}
+
+  
+.register{
+  display:flex;
+  align-items: center;
+}
+
+.img-box{
+  width:800px;
+  height:500px ;
+  border:none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: rgba(136, 133, 133, 0.6);
+  /* background-image: url('https://image2.tin247.news/pictures/2021/12/07/txb1638876395.jpg');  */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.img{
+  width:780px;
+  height:480px ;
+  border:none;
+  border-radius: 10px;
+  background: rgba(150, 83, 83, 0.6);
+  background-size: cover;
+  
+}
+#image{
+  width:800px;
+  height:480px ;
+  border-radius: 10px;
+}
+
+
+
+

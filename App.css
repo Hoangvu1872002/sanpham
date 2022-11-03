@@ -1,0 +1,33 @@
+/* .App{
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 10rem auto; 
+  width: 30%;
+  height: 500px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  background-image: linear-gradient( to right top,#ff4988 ,#ffc781,#fffefc );
+  padding-left: 90px;
+  padding-top: 30px;
+}
+#fname{
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.bt1{
+  padding: 15px;
+  margin-right: 40px;
+  margin: 30px;
+  border-radius: 10px;
+  border: 1px solid #eee;;
+background-color: rgb(167, 191, 115);
+}
+
+
+/* button{
+  position: fixed;
+  right:200px;
+  top:80%;
+} */ 
